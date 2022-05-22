@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["interface Vehicle{\n    name:string;\n    year:number;\n    broken:boolean;\n}\n\nconst oldFord={\n    name:'F250',\n    year:1994,\n    broken:true\n};\n\nconst printAuto=(vehicle:Vehicle):void =>{\n    console.log(`Name:${vehicle.name}`);\n    console.log(`Year:${vehicle.year}`);\n    console.log(`Broken:${vehicle.broken}`);\n};\n\nprintAuto(oldFord);\n"],
+  "mappings": "AAMA,MAAM,UAAQ;AAAA,EACV,MAAK;AAAA,EACL,MAAK;AAAA,EACL,QAAO;AAAA;AAGX,MAAM,YAAU,CAAC,YAAwB;AACrC,UAAQ,IAAI,QAAQ,QAAQ;AAC5B,UAAQ,IAAI,QAAQ,QAAQ;AAC5B,UAAQ,IAAI,UAAU,QAAQ;AAAA;AAGlC,UAAU;",
+  "names": []
+}
